@@ -1,0 +1,13 @@
+main{
+    background-color: #fff5e6;
+    background-image: url("https://res.cloudinary.com/mikakallberg/image/upload/v1660675718/background-signinsignup_tiinze.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.form-style{
+    padding: 4vh;
+    background-color: #ffffff;
+    opacity: 0.7;
+}
