@@ -1,6 +1,9 @@
 /*Credit background image https://unsplash.com/@glenncarstenspeters*/
-body{
+.body{
     background-color: #fff5e6;
+}
+
+.background-image{
     background-image: url("https://res.cloudinary.com/mikakallberg/image/upload/v1660675718/background-signinsignup_tiinze.jpg");
     background-position: center;
     background-repeat: no-repeat;
