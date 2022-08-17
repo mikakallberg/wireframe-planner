@@ -38,7 +38,7 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="planner.html" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Planning tools
                         </a>
@@ -59,34 +59,29 @@
         </div>
     </nav>
     <main>
-        <div class="card-group">
-            <div class="card">
-                <a href="calendar.html">
-                    <!--Credit https://pixabay.com/sv/vectors/kalender-datum-m%c3%a5nad-dag-vecka-1763587/-->
-                    <img src="assets/images/calendar-small.png" class="card-img-top"
-                        alt="Drawn image of a blue themed calendar">
-                    <div class="card-body">
-                        <h5 class="card-title">Calendar</h5>
-                    </div>
-                </a>
-            </div>
-            <div class="card">
-                <a href="notebook.html">
-                    <!--Credit for image https://pixabay.com/sv/vectors/anteckningsbok-dagbok-papper-tom-312707/-->
-                    <img src="assets/images/notebook-small.png" class="card-img-top"
-                        alt="Drawn image of a open notebook">
-                    <div class="card-body">
-                        <h5 class="card-title">NoteBook</h5>
-                    </div>
-                </a>
-            </div>
-            <div class="card">
-                <!--Credit for image https://pixabay.com/sv/vectors/urklipp-fil-papper-dokumentera-2283608/planner-background-->
-                <img src="assets/images/checklist-small.png" class="card-img-top"
-                    alt="Drawn image of checklist with a round green background">
-                <div class="card-body">
-                    <h5 class="card-title">Checklist</h5>
+        <div class="container-fluid padding-style">
+            <div class="row align-self-center">
+                <div class="col-10">
+                    <img src="assets/images/calendar-image.png" class="img-fluid" alt="Balsamiq wireframe of a calendar">
                 </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Calender comment
+            </button>
+            <div class="dropdown-menu p-4 text-muted" style="max-width: 200px;">
+                <p>
+                    To form the calender structure, bordered tables will used from Bootstrap.
+                    The information in the calender will be modelled and stored in the 
+                    unique API built for this project. 
+                    The user will be able to plan months in advance.
+                    The checklist and notebook should probably be connected to the calender.
+                    A notification and priority will be set for the user to be able to 
+                    priorities the events.
+                    The scheduling should also be adjustable through drag and drop.
+                </p>
             </div>
         </div>
     </main>
