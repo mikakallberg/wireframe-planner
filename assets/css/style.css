@@ -5,8 +5,10 @@
 
 .background-image{
     background-image: url("https://res.cloudinary.com/mikakallberg/image/upload/v1660675718/background-signinsignup_tiinze.jpg");
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
     height: 100%;
     width: 100%;
 }

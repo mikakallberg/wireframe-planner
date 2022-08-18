@@ -28,43 +28,52 @@
             <div class="row">
                 <div class="col form-style">
                     <form>
-                        <h2>Welcome to this planning tool</h2>
-                        <h5>Please login or sign up by clicking the buttons below</h5>
-                        <a href="signin.html" type="submit" class="btn btn-primary offset-md-3">Log in</a>
-                        <a href="signup.html" type="submit" class="btn btn-primary offset-md-3">Sign up</a>
                         <div class="hstack gap-3">
                             <div class="dropdown">
                                 <button class="btn btn-secondary dropdown-toggle" type="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
-                                    Comment
+                                    Log in comment
                                 </button>
                                 <div class="dropdown-menu p-4 text-muted" style="max-width: 200px;">
                                     <p>
-                                        This page is just a clean starting page for the different users
-                                        to be able to choose what they need to do.
-                                        The design will be better in the finished product
+                                        The sign in form will communicate with the backend API,
+                                        to ensure the user exists and that the information given is correct
+                                        with an existing user.
+                                        (going to look into possible further security)
                                     </p>
                                 </div>
                             </div>
                             <div class="dropdown">
                                 <button class="btn btn-secondary dropdown-toggle" type="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
-                                    Comment
+                                    Log in comment
                                 </button>
                                 <div class="dropdown-menu p-4 text-muted" style="max-width: 200px;">
-                                    <p class="mb-0">
-                                        the different buttons will take you to a signup page and a sign in page
-                                    </p>
-                                    <p>
-                                        On all pages in this wireframe Planner in the navbar
-                                        will always get you back to this page.
-                                    </p>
+                                <p class="mb-0">
+                                    For now the submit button doesn't do much.
+                                    But it will take the user to their logged in front page.
+                                    If you click the submit button you will be taken to that view.
+                                </p>
                                 </div>
                             </div>
                         </div>
-                    </form>
-                </div>
+                        <div class="mb-3 col-md-6 offset-md-3">
+                            <label for="Username" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 col-md-6 offset-md-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check col-md-6 offset-md-3">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                        </div>
+                        <a href="planner.html" type="submit" class="btn btn-primary offset-md-3">Log in</a>
+                    </div>
+                </form>
             </div>
+        </div>
         </div>
     </main>
     <footer class="navbar fixed-bottom bg-light">
